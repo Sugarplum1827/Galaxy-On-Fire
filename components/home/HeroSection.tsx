@@ -94,7 +94,7 @@ export function HeroSection() {
 
         <div className="glass rounded-lg p-4 border border-white/5">
           <p className="text-xs text-muted-foreground uppercase tracking-wider mb-3">Follow Me</p>
-          <div className="flex items-center gap-3">
+          <div className="flex items-center justify-center gap-4 w-full">
             {creator.socialLinks.map((link, i) => {
               const Icon = socialIcons[link.icon] || Github
               return (
