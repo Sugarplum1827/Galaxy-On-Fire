@@ -41,101 +41,101 @@ export interface CreatorProfile {
 }
 
 export const creator: CreatorProfile = {
-  name: 'Jake',
-  title: 'Full Stack & Data Analytics Developer',
+  name: 'Jacob',
+  title: 'Data Science & Full Stack Developer',
   level: 95,
-  location: 'Earth',
+  location: 'Manila, Philippines',
   status: 'Building Legends',
-  missionStatement: 'Crafting interactive digital experiences that blend creativity, technology, and purpose to build a better tomorrow.',
-  currentMission: 'Building legendary interfaces and intelligent systems that leave an impact.',
+  missionStatement: 'Turning raw data into actionable intelligence and building systems that automate, predict, and create real-world impact.',
+  currentMission: 'Building data-driven applications and intelligent automation systems that leave an impact.',
   aiAssistantMessage: 'Welcome back, creator. The universe is ready for your next command.',
   stats: {
-    skillsMastered: 12,
-    projectsBuilt: 15,
+    skillsMastered: 16,
+    projectsBuilt: 11,
     yearsExperience: 3
   },
   expertise: [
-    { name: 'Frontend Development', percentage: 95, color: '#7c3aed' },
-    { name: 'Backend Development', percentage: 90, color: '#3b82f6' },
-    { name: 'Data Analytics', percentage: 92, color: '#22d3ee' },
-    { name: 'UI/UX Design', percentage: 88, color: '#ec4899' },
-    { name: 'Problem Solving', percentage: 95, color: '#10b981' }
+    { name: 'Data Science & ML',     percentage: 95, color: '#7c3aed' },
+    { name: 'Backend Development',   percentage: 90, color: '#3b82f6' },
+    { name: 'Data Analytics',        percentage: 96, color: '#22d3ee' },
+    { name: 'Business Automation',   percentage: 92, color: '#ec4899' },
+    { name: 'Problem Solving',       percentage: 97, color: '#10b981' }
   ],
   characterStats: [
-    { name: 'Creativity', value: 99, color: '#7c3aed' },
-    { name: 'Problem Solving', value: 95, color: '#3b82f6' },
-    { name: 'Adaptability', value: 92, color: '#22d3ee' },
-    { name: 'Leadership', value: 88, color: '#ec4899' },
-    { name: 'Consistency', value: 94, color: '#10b981' }
+    { name: 'Analytical Thinking', value: 99, color: '#7c3aed' },
+    { name: 'Problem Solving',     value: 97, color: '#3b82f6' },
+    { name: 'Adaptability',        value: 93, color: '#22d3ee' },
+    { name: 'Communication',       value: 90, color: '#ec4899' },
+    { name: 'Consistency',         value: 95, color: '#10b981' }
   ],
   achievements: [
     {
-      id: 'early-explorer',
-      name: 'Early Explorer',
-      description: 'Started the coding journey',
+      id: 'data-explorer',
+      name: 'Data Explorer',
+      description: 'Began the journey into data science and analytics',
       icon: 'compass'
     },
     {
-      id: 'problem-solver',
-      name: 'Problem Solver',
-      description: 'Solved 100+ complex challenges',
-      icon: 'puzzle'
-    },
-    {
-      id: 'code-artisan',
-      name: 'Code Artisan',
-      description: 'Crafted beautiful, maintainable code',
-      icon: 'code'
-    },
-    {
-      id: 'ui-alchemist',
-      name: 'UI Alchemist',
-      description: 'Transformed designs into reality',
-      icon: 'wand'
-    },
-    {
-      id: 'logic-master',
-      name: 'Logic Master',
-      description: 'Mastered algorithmic thinking',
+      id: 'model-builder',
+      name: 'Model Builder',
+      description: 'Built predictive models with scikit-learn and TensorFlow',
       icon: 'brain'
+    },
+    {
+      id: 'automation-architect',
+      name: 'Automation Architect',
+      description: 'Designed end-to-end automation pipelines for real organisations',
+      icon: 'settings'
+    },
+    {
+      id: 'finance-analyst',
+      name: 'Finance Analyst',
+      description: 'Applied GARCH and Monte Carlo to real market data',
+      icon: 'trending-up'
+    },
+    {
+      id: 'storyteller',
+      name: 'Data Storyteller',
+      description: 'Translated complex data into insights for non-technical stakeholders',
+      icon: 'bar-chart'
     }
   ],
   socialLinks: [
-    { platform: 'GitHub', url: 'https://github.com/jake', icon: 'github' },
-    { platform: 'LinkedIn', url: 'https://linkedin.com/in/jake', icon: 'linkedin' },
-    { platform: 'Twitter', url: 'https://twitter.com/jake', icon: 'twitter' },
-    { platform: 'Instagram', url: 'https://instagram.com/jake', icon: 'instagram' }
+    { platform: 'GitHub',   url: 'https://github.com/Sugarplum1827',                              icon: 'github' },
+    { platform: 'LinkedIn', url: 'https://www.linkedin.com/in/jacob-randolf-salayo-216893361/',   icon: 'linkedin' },
+    { platform: 'Kaggle',   url: 'https://www.kaggle.com/randolfsalayo',                          icon: 'kaggle' },
+    { platform: 'Email',    url: 'mailto:jsnovawebstudio@gmail.com',                              icon: 'mail' }
   ],
   timeline: [
     {
       year: '2021',
-      title: 'Started my journey at EARIST',
-      description: 'Began exploring the vast universe of programming and technology.'
+      title: 'Started Computer Science at EARIST',
+      description: 'Began exploring programming, databases, and data fundamentals.'
     },
     {
       year: '2022',
-      title: 'Explored Data Analytics & Visualization',
-      description: 'Discovered the power of data and its ability to tell stories.'
+      title: 'Discovered Data Science & Analytics',
+      description: 'Dove deep into Python, R, pandas, and the power of statistical storytelling.'
     },
     {
       year: '2023',
-      title: 'Built projects & joined internships',
-      description: 'Applied knowledge in real-world scenarios and gained industry experience.'
+      title: 'Built ML models and data projects',
+      description: 'Applied predictive modeling, EDA, and feature engineering to real datasets.'
     },
     {
       year: '2024',
-      title: 'Full Stack Developer in the making',
-      description: 'Mastering both frontend and backend technologies.'
+      title: 'Financial analytics and open-source tools',
+      description: 'Built GARCH volatility forecasting and trading strategy backtesting platforms.'
     },
     {
       year: '2025',
-      title: 'Building my universe and inspiring others',
-      description: 'Creating impactful projects and sharing knowledge with the community.'
+      title: 'Professional automation and data engineering',
+      description: 'Designed enterprise automation pipelines integrating SharePoint, Xero, and CRM platforms for real-world organisations.'
     }
   ]
 }
 
 export const philosophy = {
-  quote: '"Code is not syntax. Code is worldbuilding."',
+  quote: '"Data is not numbers. Data is the story of what happened."',
   author: creator.name
 }

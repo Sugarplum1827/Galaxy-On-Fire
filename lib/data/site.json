@@ -3,56 +3,56 @@
     "welcomeLabel": "Welcome to my Universe",
     "lines": [
       { "text": "I AM", "style": "primary" },
-      { "text": "CREATOR.", "style": "glow-purple" },
-      { "text": "DREAMER.", "style": "glow-purple" },
-      { "text": "CODE. DESIGN.", "style": "muted" },
+      { "text": "ANALYST.", "style": "glow-purple" },
+      { "text": "BUILDER.", "style": "glow-purple" },
+      { "text": "DATA. CODE.", "style": "muted" },
       { "text": "DESTROY LIMITS.", "style": "gradient" }
     ],
-    "subtext": "I build digital experiences that combine creativity, code, and purpose. Let's create something legendary.",
+    "subtext": "I transform raw data into actionable intelligence and build tools that automate, predict, and scale. Let's create something legendary.",
     "ctaLabel": "Explore My Work",
     "ctaHref": "/projects"
   },
   "creator": {
-    "name": "Jake",
-    "title": "Full Stack & Data Analytics Developer",
+    "name": "Jacob",
+    "title": "Data Science & Full Stack Developer",
     "level": 95,
-    "location": "Earth",
+    "location": "Manila, Philippines",
     "status": "Building Legends",
-    "missionStatement": "Crafting interactive digital experiences that blend creativity, technology, and purpose to build a better tomorrow.",
-    "currentMission": "Building legendary interfaces and intelligent systems that leave an impact.",
+    "missionStatement": "Turning raw data into actionable insights and crafting intelligent systems that automate, predict, and create real-world impact.",
+    "currentMission": "Building data-driven applications and intelligent automation systems that leave an impact.",
     "aiAssistantMessage": "Welcome back, creator. The universe is ready for your next command.",
     "stats": {
-      "skillsMastered": 12,
-      "projectsBuilt": 15,
+      "skillsMastered": 16,
+      "projectsBuilt": 11,
       "yearsExperience": 3
     },
     "expertise": [
-      { "name": "Frontend Development", "percentage": 95, "color": "#7c3aed" },
-      { "name": "Backend Development", "percentage": 90, "color": "#3b82f6" },
-      { "name": "Data Analytics",       "percentage": 92, "color": "#22d3ee" },
-      { "name": "UI/UX Design",         "percentage": 88, "color": "#ec4899" },
-      { "name": "Problem Solving",      "percentage": 95, "color": "#10b981" }
+      { "name": "Data Science & ML",     "percentage": 95, "color": "#7c3aed" },
+      { "name": "Backend Development",   "percentage": 90, "color": "#3b82f6" },
+      { "name": "Data Analytics",        "percentage": 96, "color": "#22d3ee" },
+      { "name": "Business Automation",   "percentage": 92, "color": "#ec4899" },
+      { "name": "Problem Solving",       "percentage": 97, "color": "#10b981" }
     ],
     "socialLinks": [
-      { "platform": "GitHub",    "url": "https://github.com/jake",          "icon": "github" },
-      { "platform": "LinkedIn",  "url": "https://linkedin.com/in/jake",     "icon": "linkedin" },
-      { "platform": "Twitter",   "url": "https://twitter.com/jake",         "icon": "twitter" },
-      { "platform": "Instagram", "url": "https://instagram.com/jake",       "icon": "instagram" }
+      { "platform": "GitHub",   "url": "https://github.com/Sugarplum1827",                              "icon": "github" },
+      { "platform": "LinkedIn", "url": "https://www.linkedin.com/in/jacob-randolf-salayo-216893361/",   "icon": "linkedin" },
+      { "platform": "Kaggle",   "url": "https://www.kaggle.com/randolfsalayo",                          "icon": "kaggle" },
+      { "platform": "Email",    "url": "mailto:jsnovawebstudio@gmail.com",                              "icon": "mail" }
     ]
   },
   "skills": [
-    { "id": "react",      "name": "React",       "icon": "react",      "level": 95, "color": "#61dafb", "orbitAngle": -30,  "orbitRadius": 180 },
-    { "id": "python",     "name": "Python",      "icon": "python",     "level": 96, "color": "#3776ab", "orbitAngle": 15,   "orbitRadius": 200 },
-    { "id": "nodejs",     "name": "Node.js",     "icon": "nodejs",     "level": 90, "color": "#339933", "orbitAngle": 45,   "orbitRadius": 220 },
-    { "id": "javascript", "name": "JavaScript",  "icon": "javascript", "level": 90, "color": "#f7df1e", "orbitAngle": -60,  "orbitRadius": 160 },
-    { "id": "typescript", "name": "TypeScript",  "icon": "typescript", "level": 90, "color": "#3178c6", "orbitAngle": 75,   "orbitRadius": 190 },
-    { "id": "sql",        "name": "SQL",         "icon": "sql",        "level": 85, "color": "#00758f", "orbitAngle": 105,  "orbitRadius": 210 },
-    { "id": "html",       "name": "HTML",        "icon": "html",       "level": 95, "color": "#e34f26", "orbitAngle": -90,  "orbitRadius": 170 },
-    { "id": "css",        "name": "CSS",         "icon": "css",        "level": 90, "color": "#264de4", "orbitAngle": 135,  "orbitRadius": 180 },
-    { "id": "firebase",   "name": "Firebase",    "icon": "firebase",   "level": 88, "color": "#ffca28", "orbitAngle": 165,  "orbitRadius": 160 },
-    { "id": "git",        "name": "Git",         "icon": "git",        "level": 88, "color": "#f05032", "orbitAngle": 195,  "orbitRadius": 190 },
-    { "id": "tailwind",   "name": "Tailwind",    "icon": "tailwind",   "level": 90, "color": "#06b6d4", "orbitAngle": -120, "orbitRadius": 200 },
-    { "id": "figma",      "name": "Figma",       "icon": "figma",      "level": 85, "color": "#f24e1e", "orbitAngle": -150, "orbitRadius": 210 }
+    { "id": "python",      "name": "Python",      "icon": "python",      "level": 96, "color": "#3776ab", "orbitAngle": -30,  "orbitRadius": 180 },
+    { "id": "sql",         "name": "SQL",         "icon": "sql",         "level": 88, "color": "#00758f", "orbitAngle": 15,   "orbitRadius": 200 },
+    { "id": "r",           "name": "R",           "icon": "r",           "level": 85, "color": "#276dc3", "orbitAngle": 45,   "orbitRadius": 220 },
+    { "id": "javascript",  "name": "JavaScript",  "icon": "javascript",  "level": 85, "color": "#f7df1e", "orbitAngle": -60,  "orbitRadius": 160 },
+    { "id": "typescript",  "name": "TypeScript",  "icon": "typescript",  "level": 83, "color": "#3178c6", "orbitAngle": 75,   "orbitRadius": 190 },
+    { "id": "pandas",      "name": "Pandas",      "icon": "pandas",      "level": 92, "color": "#150458", "orbitAngle": 105,  "orbitRadius": 210 },
+    { "id": "numpy",       "name": "NumPy",       "icon": "numpy",       "level": 88, "color": "#013243", "orbitAngle": -90,  "orbitRadius": 170 },
+    { "id": "tensorflow",  "name": "TensorFlow",  "icon": "tensorflow",  "level": 82, "color": "#ff6f00", "orbitAngle": 135,  "orbitRadius": 180 },
+    { "id": "scikitlearn", "name": "scikit-learn","icon": "scikitlearn", "level": 88, "color": "#f89939", "orbitAngle": 165,  "orbitRadius": 160 },
+    { "id": "plotly",      "name": "Plotly",      "icon": "plotly",      "level": 88, "color": "#3f4f75", "orbitAngle": 195,  "orbitRadius": 190 },
+    { "id": "git",         "name": "Git",         "icon": "git",         "level": 85, "color": "#f05032", "orbitAngle": -120, "orbitRadius": 200 },
+    { "id": "powerauto",   "name": "Power Automate","icon": "powerauto", "level": 87, "color": "#0078d4", "orbitAngle": -150, "orbitRadius": 210 }
   ],
   "orb": {
     "clickable": true,

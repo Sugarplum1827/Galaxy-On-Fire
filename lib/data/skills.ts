@@ -14,318 +14,337 @@ export interface Skill {
 
 export const skills: Skill[] = [
   {
-    id: 'react',
-    name: 'React',
-    icon: 'react',
-    level: 95,
-    color: '#61dafb',
-    category: 'frontend',
-    description: 'React is a JavaScript library for building user interfaces, especially single-page applications.',
-    yearsExperience: 3,
-    projects: ['Portalverse', 'Galaxy UI', 'Inferno UI'],
-    relatedSkills: ['javascript', 'typescript', 'html', 'css'],
-    insights: [
-      'Strong in hooks and context API',
-      'Component architecture expert',
-      'State management (Redux, Zustand)',
-      'Performance optimization',
-      'Building reusable UI systems'
-    ]
-  },
-  {
     id: 'python',
     name: 'Python',
     icon: 'python',
     level: 96,
     color: '#3776ab',
-    category: 'backend',
-    description: 'Python is a versatile programming language used for web development, data science, and automation.',
+    category: 'data',
+    description: 'Python is the backbone of data science, machine learning, and automation — versatile, powerful, and expressive.',
     yearsExperience: 3,
-    projects: ['Data Pipeline', 'ML Models', 'Automation Scripts'],
-    relatedSkills: ['pandas', 'numpy', 'sql'],
+    projects: ['Trading Strategy Tester', 'Volatility Forecaster', 'Automation Pipelines'],
+    relatedSkills: ['pandas', 'numpy', 'scikit-learn', 'tensorflow'],
     insights: [
-      'Data analysis and visualization',
-      'Machine learning fundamentals',
-      'API development with FastAPI',
-      'Automation and scripting',
-      'Database integration'
-    ]
-  },
-  {
-    id: 'nodejs',
-    name: 'Node.js',
-    icon: 'nodejs',
-    level: 90,
-    color: '#339933',
-    category: 'backend',
-    description: 'Node.js is a JavaScript runtime for building scalable server-side applications.',
-    yearsExperience: 2,
-    projects: ['API Gateway', 'Real-time Chat', 'Microservices'],
-    relatedSkills: ['javascript', 'typescript', 'express'],
-    insights: [
-      'RESTful API design',
-      'Real-time applications with Socket.io',
-      'Microservices architecture',
-      'Authentication and security',
-      'Database integration'
-    ]
-  },
-  {
-    id: 'javascript',
-    name: 'JavaScript',
-    icon: 'javascript',
-    level: 90,
-    color: '#f7df1e',
-    category: 'frontend',
-    description: 'JavaScript is the programming language of the web, enabling interactive and dynamic content.',
-    yearsExperience: 3,
-    projects: ['Interactive Dashboard', 'Browser Extensions', 'Game Engine'],
-    relatedSkills: ['typescript', 'react', 'nodejs'],
-    insights: [
-      'ES6+ features mastery',
-      'Async programming patterns',
-      'DOM manipulation',
-      'Event-driven architecture',
-      'Module systems'
-    ]
-  },
-  {
-    id: 'typescript',
-    name: 'TypeScript',
-    icon: 'typescript',
-    level: 90,
-    color: '#3178c6',
-    category: 'frontend',
-    description: 'TypeScript adds static typing to JavaScript, improving code quality and developer experience.',
-    yearsExperience: 2,
-    projects: ['Enterprise App', 'Type-safe API', 'Component Library'],
-    relatedSkills: ['javascript', 'react', 'nodejs'],
-    insights: [
-      'Advanced type systems',
-      'Generic programming',
-      'Type inference optimization',
-      'Declaration files',
-      'Strict mode configurations'
+      'Predictive modeling and EDA pipelines',
+      'WebSocket automation and real-time data feeds',
+      'ML model building with scikit-learn and TensorFlow',
+      'GARCH financial modeling',
+      'Scripting cross-system integrations'
     ]
   },
   {
     id: 'sql',
     name: 'SQL',
     icon: 'sql',
-    level: 85,
+    level: 88,
     color: '#00758f',
     category: 'database',
-    description: 'SQL is the standard language for managing and querying relational databases.',
+    description: 'SQL is the standard language for querying and managing relational databases — essential for data analysis and backend work.',
     yearsExperience: 3,
-    projects: ['Data Warehouse', 'Analytics Platform', 'Reporting System'],
-    relatedSkills: ['python', 'nodejs', 'firebase'],
+    projects: ['Recruitment Database', 'Data Pipelines', 'Reporting System'],
+    relatedSkills: ['python', 'pandas', 'mysql', 'sqlite'],
     insights: [
       'Complex query optimization',
-      'Database design patterns',
-      'Stored procedures',
-      'Performance tuning',
-      'Data modeling'
+      'Database design and normalization',
+      'Aggregations and window functions',
+      'ETL pipeline integration',
+      'MySQL and SQLite experience'
     ]
   },
   {
-    id: 'html',
-    name: 'HTML',
-    icon: 'html',
-    level: 95,
-    color: '#e34f26',
-    category: 'frontend',
-    description: 'HTML is the standard markup language for creating web pages and web applications.',
-    yearsExperience: 4,
-    projects: ['Accessible UI', 'Semantic Markup', 'Email Templates'],
-    relatedSkills: ['css', 'javascript', 'react'],
-    insights: [
-      'Semantic HTML5 elements',
-      'Accessibility (ARIA)',
-      'SEO best practices',
-      'Form handling',
-      'Canvas and SVG'
-    ]
-  },
-  {
-    id: 'css',
-    name: 'CSS',
-    icon: 'css',
-    level: 90,
-    color: '#264de4',
-    category: 'frontend',
-    description: 'CSS is the language used for describing the presentation and styling of web documents.',
-    yearsExperience: 4,
-    projects: ['Design System', 'Animation Library', 'Responsive Framework'],
-    relatedSkills: ['html', 'sass', 'tailwind'],
-    insights: [
-      'CSS Grid and Flexbox mastery',
-      'Custom properties (variables)',
-      'Animations and transitions',
-      'Responsive design patterns',
-      'CSS-in-JS solutions'
-    ]
-  },
-  {
-    id: 'sass',
-    name: 'Sass',
-    icon: 'sass',
+    id: 'r',
+    name: 'R',
+    icon: 'r',
     level: 85,
-    color: '#cc6699',
-    category: 'frontend',
-    description: 'Sass is a CSS preprocessor that adds variables, nesting, and mixins to CSS.',
-    yearsExperience: 3,
-    projects: ['Theme System', 'Component Styles', 'Brand Guidelines'],
-    relatedSkills: ['css', 'html', 'react'],
-    insights: [
-      'Mixins and functions',
-      'Modular architecture',
-      'Theme management',
-      'BEM methodology',
-      'Build optimization'
-    ]
-  },
-  {
-    id: 'firebase',
-    name: 'Firebase',
-    icon: 'firebase',
-    level: 88,
-    color: '#ffca28',
-    category: 'database',
-    description: 'Firebase is a platform for building web and mobile applications with real-time features.',
+    color: '#276dc3',
+    category: 'data',
+    description: 'R is a statistical computing language widely used in data analysis, visualization, and academic research.',
     yearsExperience: 2,
-    projects: ['Real-time App', 'Auth System', 'Cloud Functions'],
-    relatedSkills: ['javascript', 'nodejs', 'sql'],
+    projects: ['Statistical Analysis', 'ggplot2 Visualizations', 'Financial Modeling'],
+    relatedSkills: ['python', 'pandas', 'numpy'],
     insights: [
-      'Firestore data modeling',
-      'Authentication flows',
-      'Cloud Functions',
-      'Real-time listeners',
-      'Security rules'
-    ]
-  },
-  {
-    id: 'git',
-    name: 'Git',
-    icon: 'git',
-    level: 88,
-    color: '#f05032',
-    category: 'tools',
-    description: 'Git is a distributed version control system for tracking changes in source code.',
-    yearsExperience: 3,
-    projects: ['CI/CD Pipeline', 'Monorepo Management', 'Open Source'],
-    relatedSkills: ['github', 'nodejs', 'typescript'],
-    insights: [
-      'Branching strategies',
-      'Merge conflict resolution',
-      'Git hooks and automation',
-      'Code review workflows',
-      'Repository management'
-    ]
-  },
-  {
-    id: 'figma',
-    name: 'Figma',
-    icon: 'figma',
-    level: 85,
-    color: '#f24e1e',
-    category: 'tools',
-    description: 'Figma is a collaborative design tool for creating user interfaces and prototypes.',
-    yearsExperience: 2,
-    projects: ['Design System', 'Prototype Gallery', 'Brand Assets'],
-    relatedSkills: ['css', 'html', 'react'],
-    insights: [
-      'Component libraries',
-      'Auto layout mastery',
-      'Prototyping flows',
-      'Design tokens',
-      'Developer handoff'
-    ]
-  },
-  {
-    id: 'tailwind',
-    name: 'Tailwind',
-    icon: 'tailwind',
-    level: 90,
-    color: '#06b6d4',
-    category: 'frontend',
-    description: 'Tailwind CSS is a utility-first CSS framework for rapidly building custom designs.',
-    yearsExperience: 2,
-    projects: ['UI Kit', 'Landing Pages', 'Dashboard'],
-    relatedSkills: ['css', 'react', 'html'],
-    insights: [
-      'Utility-first workflow',
-      'Custom configuration',
-      'Component extraction',
-      'Responsive design',
-      'Dark mode implementation'
-    ]
-  },
-  {
-    id: 'express',
-    name: 'Express',
-    icon: 'express',
-    level: 85,
-    color: '#000000',
-    category: 'backend',
-    description: 'Express is a minimal and flexible Node.js web application framework.',
-    yearsExperience: 2,
-    projects: ['API Server', 'Middleware Stack', 'Auth Service'],
-    relatedSkills: ['nodejs', 'javascript', 'typescript'],
-    insights: [
-      'Middleware patterns',
-      'Route organization',
-      'Error handling',
-      'Security best practices',
-      'Performance optimization'
+      'ggplot2 data visualization',
+      'Statistical hypothesis testing',
+      'Time series analysis',
+      'Data wrangling with tidyverse',
+      'Reporting with R Markdown'
     ]
   },
   {
     id: 'pandas',
     name: 'Pandas',
     icon: 'pandas',
-    level: 88,
+    level: 92,
     color: '#150458',
     category: 'data',
-    description: 'Pandas is a Python library for data manipulation and analysis.',
-    yearsExperience: 2,
-    projects: ['Data Pipeline', 'Analytics Dashboard', 'ETL Process'],
+    description: 'Pandas is the go-to Python library for data manipulation and analysis, powering EDA and pipeline workflows.',
+    yearsExperience: 3,
+    projects: ['Trading Strategy Tester', 'Volatility Forecaster', 'ETL Process'],
     relatedSkills: ['python', 'numpy', 'sql'],
     insights: [
-      'DataFrame operations',
-      'Data cleaning pipelines',
+      'DataFrame operations and transformations',
+      'Data cleaning and preprocessing pipelines',
       'Time series analysis',
-      'Merge and join operations',
-      'Performance optimization'
+      'Merge, join, and group-by operations',
+      'Performance tuning for large datasets'
     ]
   },
   {
     id: 'numpy',
     name: 'NumPy',
     icon: 'numpy',
-    level: 85,
+    level: 88,
     color: '#013243',
     category: 'data',
-    description: 'NumPy is a Python library for numerical computing with multi-dimensional arrays.',
-    yearsExperience: 2,
-    projects: ['Scientific Computing', 'ML Preprocessing', 'Statistical Analysis'],
-    relatedSkills: ['python', 'pandas', 'sql'],
+    description: 'NumPy provides the numerical foundation for scientific computing and ML preprocessing in Python.',
+    yearsExperience: 3,
+    projects: ['Trading Strategy Tester', 'Volatility Forecaster', 'ML Preprocessing'],
+    relatedSkills: ['python', 'pandas', 'scikit-learn'],
     insights: [
-      'Array operations',
-      'Linear algebra',
-      'Statistical functions',
-      'Broadcasting',
-      'Memory optimization'
+      'Array and matrix operations',
+      'Linear algebra fundamentals',
+      'Statistical computations',
+      'Broadcasting and vectorization',
+      'Monte Carlo simulation support'
+    ]
+  },
+  {
+    id: 'scikitlearn',
+    name: 'scikit-learn',
+    icon: 'scikitlearn',
+    level: 88,
+    color: '#f89939',
+    category: 'data',
+    description: 'scikit-learn is Python\'s leading ML library for classification, regression, clustering, and feature engineering.',
+    yearsExperience: 2,
+    projects: ['Predictive Models', 'Feature Engineering', 'Classification Pipelines'],
+    relatedSkills: ['python', 'pandas', 'numpy', 'tensorflow'],
+    insights: [
+      'Supervised and unsupervised learning',
+      'Feature engineering and selection',
+      'Model evaluation and cross-validation',
+      'Pipeline construction',
+      'Hyperparameter tuning'
+    ]
+  },
+  {
+    id: 'tensorflow',
+    name: 'TensorFlow',
+    icon: 'tensorflow',
+    level: 82,
+    color: '#ff6f00',
+    category: 'data',
+    description: 'TensorFlow is an open-source deep learning framework for building and training neural networks at scale.',
+    yearsExperience: 2,
+    projects: ['Deep Learning Models', 'Neural Network Experiments', 'ML Projects'],
+    relatedSkills: ['python', 'scikit-learn', 'numpy'],
+    insights: [
+      'Neural network architecture design',
+      'Model training and evaluation',
+      'Keras high-level API',
+      'Classification and regression tasks',
+      'Model optimization techniques'
+    ]
+  },
+  {
+    id: 'plotly',
+    name: 'Plotly',
+    icon: 'plotly',
+    level: 88,
+    color: '#3f4f75',
+    category: 'data',
+    description: 'Plotly enables interactive, publication-quality data visualizations in Python and the browser.',
+    yearsExperience: 2,
+    projects: ['Trading Strategy Tester', 'Volatility Forecaster', 'Analytics Dashboards'],
+    relatedSkills: ['python', 'pandas', 'streamlit'],
+    insights: [
+      'Interactive charting and dashboards',
+      'Financial and time series plots',
+      'Distribution and diagnostic visualizations',
+      'Streamlit integration',
+      'Data storytelling for non-technical audiences'
+    ]
+  },
+  {
+    id: 'excel',
+    name: 'Excel',
+    icon: 'excel',
+    level: 90,
+    color: '#217346',
+    category: 'tools',
+    description: 'Excel is an industry-standard tool for data analysis, reporting, and business intelligence workflows.',
+    yearsExperience: 3,
+    projects: ['Recruitment Database', 'HR Reporting', 'Analytics Dashboards'],
+    relatedSkills: ['sql', 'pandas', 'looker'],
+    insights: [
+      'Advanced formulas and pivot tables',
+      'Data cleaning and transformation',
+      'Dashboard building',
+      'Financial modeling',
+      'Cross-team reporting outputs'
+    ]
+  },
+  {
+    id: 'looker',
+    name: 'Looker Studio',
+    icon: 'looker',
+    level: 85,
+    color: '#4285f4',
+    category: 'tools',
+    description: 'Looker Studio (formerly Data Studio) is a BI tool for building interactive dashboards and visual reports.',
+    yearsExperience: 2,
+    projects: ['HR Analytics Dashboard', 'Sales Reporting', 'Operational KPIs'],
+    relatedSkills: ['sql', 'excel', 'python'],
+    insights: [
+      'Dashboard design and data storytelling',
+      'Connecting multiple data sources',
+      'Real-time reporting',
+      'Stakeholder-facing visual outputs',
+      'KPI tracking'
+    ]
+  },
+  {
+    id: 'powerautomate',
+    name: 'Power Automate',
+    icon: 'powerauto',
+    level: 87,
+    color: '#0078d4',
+    category: 'tools',
+    description: 'Power Automate is Microsoft\'s workflow automation platform for connecting apps and automating repetitive processes.',
+    yearsExperience: 1,
+    projects: ['HR Automation', 'Data Pipeline Orchestration', 'Cross-system Sync'],
+    relatedSkills: ['zapier', 'python', 'sharepoint'],
+    insights: [
+      'End-to-end workflow design',
+      'SharePoint and Xero integrations',
+      'Automated data sync and reporting',
+      'Trigger-based automation flows',
+      'Non-technical stakeholder delivery'
+    ]
+  },
+  {
+    id: 'zapier',
+    name: 'Zapier',
+    icon: 'zapier',
+    level: 85,
+    color: '#ff4a00',
+    category: 'tools',
+    description: 'Zapier automates workflows between web apps without code, enabling scalable business process automation.',
+    yearsExperience: 1,
+    projects: ['CRM Integration', 'HR Data Pipelines', 'Automated Reporting'],
+    relatedSkills: ['powerautomate', 'sharepoint', 'python'],
+    insights: [
+      'Multi-step Zap automation',
+      'CRM and accounting platform integration',
+      'Trigger-action workflow design',
+      'Cross-platform data flow',
+      'Reducing manual data entry'
+    ]
+  },
+  {
+    id: 'javascript',
+    name: 'JavaScript',
+    icon: 'javascript',
+    level: 85,
+    color: '#f7df1e',
+    category: 'frontend',
+    description: 'JavaScript powers interactive web experiences and is the foundation for frontend and Node.js development.',
+    yearsExperience: 3,
+    projects: ['GBA Portfolio Emulator', 'Booking System', 'AskHelp Platform'],
+    relatedSkills: ['typescript', 'html', 'css'],
+    insights: [
+      'ES6+ features and async programming',
+      'DOM manipulation and event handling',
+      'Browser-based emulation (GBA.js)',
+      'Web Audio API',
+      'Module systems and tooling'
+    ]
+  },
+  {
+    id: 'typescript',
+    name: 'TypeScript',
+    icon: 'typescript',
+    level: 83,
+    color: '#3178c6',
+    category: 'frontend',
+    description: 'TypeScript adds static typing to JavaScript, improving code quality and developer experience in larger codebases.',
+    yearsExperience: 2,
+    projects: ['Type-safe APIs', 'Frontend Applications', 'Component Libraries'],
+    relatedSkills: ['javascript', 'nodejs'],
+    insights: [
+      'Advanced type systems and generics',
+      'Type inference and strict mode',
+      'Interface and type design',
+      'Declaration files',
+      'Refactoring safety'
+    ]
+  },
+  {
+    id: 'mysql',
+    name: 'MySQL',
+    icon: 'mysql',
+    level: 85,
+    color: '#00758f',
+    category: 'database',
+    description: 'MySQL is a widely-used open-source relational database system for web and enterprise applications.',
+    yearsExperience: 3,
+    projects: ['Booking System', 'AskHelp Platform', 'Analytics Pipelines'],
+    relatedSkills: ['sql', 'sqlite', 'python'],
+    insights: [
+      'Schema design and normalization',
+      'Query optimization',
+      'Stored procedures',
+      'PHP and Python integration',
+      'Data migration'
+    ]
+  },
+  {
+    id: 'mongodb',
+    name: 'MongoDB',
+    icon: 'mongodb',
+    level: 78,
+    color: '#47a248',
+    category: 'database',
+    description: 'MongoDB is a NoSQL document database offering flexible schema design for modern applications.',
+    yearsExperience: 1,
+    projects: ['Unstructured Data Projects', 'API Backends'],
+    relatedSkills: ['sql', 'nodejs', 'python'],
+    insights: [
+      'Document-oriented data modeling',
+      'Aggregation pipelines',
+      'CRUD operations',
+      'Indexing strategies',
+      'Integration with Python and Node.js'
+    ]
+  },
+  {
+    id: 'git',
+    name: 'Git',
+    icon: 'git',
+    level: 85,
+    color: '#f05032',
+    category: 'tools',
+    description: 'Git is the standard distributed version control system for tracking changes and collaborating on code.',
+    yearsExperience: 3,
+    projects: ['All Projects', 'Open Source Contributions'],
+    relatedSkills: ['github', 'python', 'javascript'],
+    insights: [
+      'Branching and merging strategies',
+      'Pull request workflows',
+      'Commit hygiene and history management',
+      'Conflict resolution',
+      'Repository organisation'
     ]
   }
 ]
 
 export const skillCategories = [
   { id: 'all', name: 'All', icon: 'layers' },
+  { id: 'data', name: 'Data Science', icon: 'bar-chart' },
   { id: 'frontend', name: 'Frontend', icon: 'monitor' },
   { id: 'backend', name: 'Backend', icon: 'server' },
   { id: 'database', name: 'Database', icon: 'database' },
-  { id: 'data', name: 'Data Science', icon: 'bar-chart' },
-  { id: 'tools', name: 'Tools & Others', icon: 'tool' }
+  { id: 'tools', name: 'Tools & Automation', icon: 'tool' }
 ]
 
 export function getSkillById(id: string): Skill | undefined {
