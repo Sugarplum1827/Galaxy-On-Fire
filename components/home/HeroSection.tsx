@@ -6,18 +6,9 @@ import { creator } from '@/lib/data/creator'
 
 export function HeroSection() {
   return (
-    <div className="flex flex-col gap-8 py-8">
+    <div className="flex flex-col gap-8">
       {/* Main Hero Content */}
       <div className="space-y-6">
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.1 }}
-          className="text-sm text-muted-foreground tracking-widest uppercase"
-        >
-          Welcome to my Universe
-        </motion.p>
-
         <div className="space-y-1">
           <motion.h1
             initial={{ opacity: 0, x: -30 }}
