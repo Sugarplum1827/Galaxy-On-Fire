@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { MapPin, Zap, Mail, Github, Linkedin, ArrowRight } from 'lucide-react'
+import { MapPin, Zap, Mail, Github, Linkedin, Instagram, ArrowRight } from 'lucide-react'
 
 import siteData from '@/lib/data/site.json'
 
@@ -10,6 +10,7 @@ const { hero, creator } = siteData
 const socialIcons: Record<string, React.ElementType> = {
   github: Github,
   linkedin: Linkedin,
+  instagram: Instagram,
   mail: Mail,
 }
 
