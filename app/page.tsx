@@ -57,10 +57,10 @@ export default function HomePage() {
                 Welcome to my Universe
               </p>
             </div>
-            <div className="relative h-[420px] sm:h-[500px] -mx-4">
+            <div className="relative h-[550px] sm:h-[650px] mb-16 -mx-4">
               <GalaxyScene />
             </div>
-            <div className="py-8 flex flex-col items-center text-center">
+            <div className="pt-12 pb-8 flex flex-col items-center text-center">
               <HeroSection />
             </div>
             <div className="py-6 border-t border-white/5">
