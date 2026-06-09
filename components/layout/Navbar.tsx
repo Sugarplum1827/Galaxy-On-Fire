@@ -20,6 +20,15 @@ export function Navbar() {
   const pathname = usePathname()
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
+  const handleDownloadCV = () => {
+    const link = document.createElement('a')
+    link.href = '/cv.pdf' // Make sure this file exists in /public
+    link.download = 'Randolf_CV.pdf'
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
+  }
+
   return (
     <nav className="fixed top-0 left-0 right-0 z-50">
       <div className="glass border-b border-white/5">
@@ -40,6 +49,7 @@ export function Navbar() {
             <div className="hidden md:flex items-center gap-1">
               {navLinks.map((link) => {
                 const isActive = pathname === link.href
+
                 return (
                   <Link
                     key={link.href}
@@ -52,11 +62,16 @@ export function Navbar() {
                     )}
                   >
                     {link.label}
+
                     {isActive && (
                       <motion.div
                         layoutId="navbar-indicator"
                         className="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-cosmic-purple to-cosmic-cyan"
-                        transition={{ type: 'spring', bounce: 0.2, duration: 0.6 }}
+                        transition={{
+                          type: 'spring',
+                          bounce: 0.2,
+                          duration: 0.6
+                        }}
                       />
                     )}
                   </Link>
@@ -64,9 +79,10 @@ export function Navbar() {
               })}
             </div>
 
-            {/* CTA Button */}
+            {/* Desktop Download Button */}
             <div className="hidden md:flex items-center gap-4">
               <motion.button
+                onClick={handleDownloadCV}
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-white border border-cosmic-purple/50 rounded-lg hover:bg-cosmic-purple/10 hover:border-cosmic-purple transition-all"
@@ -76,7 +92,7 @@ export function Navbar() {
               </motion.button>
             </div>
 
-            {/* Mobile Menu Button */}
+            {/* Mobile Menu Toggle */}
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="md:hidden p-2 text-muted-foreground hover:text-white transition-colors"
@@ -103,6 +119,7 @@ export function Navbar() {
             <div className="px-4 py-4 space-y-2">
               {navLinks.map((link) => {
                 const isActive = pathname === link.href
+
                 return (
                   <Link
                     key={link.href}
@@ -119,20 +136,15 @@ export function Navbar() {
                   </Link>
                 )
               })}
-              const handleDownloadCV = () => { 
-              const link = document.createElement("a");
-              link.href = "/cv.pdf";
-              link.download = "Randolf_CV.pdf";
-              document.body.appendChild(link);
-              link.click();
-              document.body.removeChild(link);
-              };
-             <button
-               onClick={handleDownloadCV}
-               className="w-full flex items-center justify-center gap-2 px-4 py-3 mt-4 text-sm font-medium text-white border border-cosmic-purple/50 rounded-lg hover:bg-cosmic-purple/10 transition-all"
-               <span>Download CV</span>
-              <Download className="w-4 h-4" />
-            </button>
+
+              {/* Mobile Download Button */}
+              <button
+                onClick={handleDownloadCV}
+                className="w-full flex items-center justify-center gap-2 px-4 py-3 mt-4 text-sm font-medium text-white border border-cosmic-purple/50 rounded-lg hover:bg-cosmic-purple/10 transition-all"
+              >
+                <span>Download CV</span>
+                <Download className="w-4 h-4" />
+              </button>
             </div>
           </motion.div>
         )}
