@@ -21,7 +21,7 @@ const contactMethods = [
     name: 'Email Me', 
     icon: Mail, 
     color: '#7c3aed',
-    href: 'mailto:hello@galaxyoffire.dev',
+    href: 'mailto:jsnovawebstudio@gmail.com',
     position: { x: 85, y: 25 }
   },
   { 
@@ -29,7 +29,7 @@ const contactMethods = [
     name: 'LinkedIn', 
     icon: Linkedin, 
     color: '#0077b5',
-    href: 'https://linkedin.com/in/jake',
+    href: 'https://www.linkedin.com/in/jacob-randolf-salayo-216893361?',
     position: { x: 90, y: 50 }
   },
   { 
@@ -37,7 +37,7 @@ const contactMethods = [
     name: 'GitHub', 
     icon: Github, 
     color: '#333',
-    href: 'https://github.com/jake',
+    href: 'https://github.com/Sugarplum1827',
     position: { x: 85, y: 75 }
   },
   { 
@@ -45,7 +45,7 @@ const contactMethods = [
     name: 'Resume', 
     icon: FileText, 
     color: '#22d3ee',
-    href: '/resume.pdf',
+    href: '/cv.pdf',
     position: { x: 75, y: 90 }
   }
 ]
@@ -189,18 +189,18 @@ export default function ContactPage() {
               </h3>
               <div className="space-y-3">
                 <a
-                  href="mailto:hello@galaxyoffire.dev"
+                  href="mailto:jsnovawebstudio@gmail.com"
                   className="flex items-center gap-3 text-sm hover:text-cosmic-purple transition-colors"
                 >
                   <Mail className="w-4 h-4 text-muted-foreground" />
-                  <span>hello@galaxyoffire.dev</span>
+                  <span>jsnovawebstudio@gmail.com</span>
                 </a>
                 <a
                   href="tel:+91123456789"
                   className="flex items-center gap-3 text-sm hover:text-cosmic-purple transition-colors"
                 >
                   <Phone className="w-4 h-4 text-muted-foreground" />
-                  <span>+91 12345 67890</span>
+                  <span>+63 995-385-6248</span>
                 </a>
                 <div className="flex items-center gap-3 text-sm text-muted-foreground">
                   <MapPin className="w-4 h-4" />
