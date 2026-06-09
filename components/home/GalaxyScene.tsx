@@ -50,12 +50,11 @@ function SkillOrb({
 }: { skill: SkillEntry; index: number; onClick: () => void }) {
   const Icon = skillIcons[skill.icon] || Code2
   const ORBIT_RADIUS = 200
-
-const x =
-  Math.cos((skill.orbitAngle * Math.PI) / 180) * ORBIT_RADIUS
-
-const y =
-  Math.sin((skill.orbitAngle * Math.PI) / 180) * ORBIT_RADIUS
+  const angle = (index / siteData.skills.length) * 360 - 90
+    const x =
+      Math.cos((angle * Math.PI) / 180) * ORBIT_RADIUS
+      const y =
+        Math.sin((angle * Math.PI) / 180) * ORBIT_RADIUS
 
   return (
     <motion.div
@@ -316,7 +315,7 @@ export function GalaxyScene() {
         initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.5 }}
         className="absolute z-30"
         style={{
-          left: '47%',
+          left: '45%',
           top: '60%',
           transform:
             'translate(-50%, -50%) translateY(170px)',
