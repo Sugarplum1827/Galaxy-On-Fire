@@ -63,7 +63,11 @@ const y =
       animate={{ opacity: 1, scale: 1 }}
       transition={{ delay: 0.5 + index * 0.07, type: 'spring', stiffness: 100 }}
       className="absolute"
-      style={{ left: `calc(50% + ${x}px)`, top: `calc(50% + ${y}px)`, transform: 'translate(-50%,-50%)' }}
+      style={{
+        left: `calc(50% + ${x - 20}px)`, // move left
+        top: `calc(50% + ${y - 30}px)`,  // move up
+        transform: 'translate(-50%,-50%)'
+      }}
     >
       <motion.button onClick={onClick} whileHover={{ scale: 1.2 }} whileTap={{ scale: 0.95 }} className="relative group cursor-pointer">
         <div className="absolute inset-0 rounded-full blur-md opacity-50 group-hover:opacity-80 transition-opacity" style={{ backgroundColor: skill.color }} />
@@ -312,8 +316,8 @@ export function GalaxyScene() {
         initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.5 }}
         className="absolute z-30"
         style={{
-          left: '60%',
-          top: '30%',
+          left: '47%',
+          top: '60%',
           transform:
             'translate(-50%, -50%) translateY(170px)',
         }}
