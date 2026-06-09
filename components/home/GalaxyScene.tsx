@@ -310,7 +310,13 @@ export function GalaxyScene() {
       {/* Contact button */}
       <motion.div
         initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1.5 }}
-        className="absolute bottom-16 left-1/2 -translate-x-1/2 z-30"
+        className="absolute z-30"
+        style={{
+          left: '50%',
+          top: '50%',
+          transform:
+            'translate(-50%, -50%) translateY(170px)',
+        }}
       >
         <motion.button
           onClick={() => setShowContact(true)}
