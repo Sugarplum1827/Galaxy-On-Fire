@@ -49,8 +49,13 @@ function SkillOrb({
   skill, index, onClick
 }: { skill: SkillEntry; index: number; onClick: () => void }) {
   const Icon = skillIcons[skill.icon] || Code2
-  const x = Math.cos((skill.orbitAngle * Math.PI) / 180) * skill.orbitRadius
-  const y = Math.sin((skill.orbitAngle * Math.PI) / 180) * skill.orbitRadius
+  const ORBIT_RADIUS = 170
+
+const x =
+  Math.cos((skill.orbitAngle * Math.PI) / 180) * ORBIT_RADIUS
+
+const y =
+  Math.sin((skill.orbitAngle * Math.PI) / 180) * ORBIT_RADIUS
 
   return (
     <motion.div
