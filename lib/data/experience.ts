@@ -65,23 +65,6 @@ export const experiences: Experience[] = [
     skills: ['Python', 'R', 'SQL', 'C++', 'Machine Learning', 'Data Science']
   },
   {
-    id: 'trading-strategy-tester',
-    title: '1st Place – Financial Analytics Hackathon',
-    company: 'TechFest 2024',
-    type: 'achievement',
-    location: 'Manila, Philippines',
-    startDate: '2024',
-    endDate: '2024',
-    description: 'Built a full-featured trading strategy backtesting application with portfolio optimization and Monte Carlo risk simulation.',
-    highlights: [
-      'Implemented 7+ trading strategies (SMA, EMA, RSI, MACD, Bollinger Bands)',
-      'Portfolio optimization using Modern Portfolio Theory',
-      'Monte Carlo simulation for risk scenario modeling',
-      'Deployed live on Streamlit'
-    ],
-    skills: ['Python', 'pandas', 'NumPy', 'Monte Carlo', 'Plotly', 'Streamlit']
-  },
-  {
     id: 'volatility-forecaster',
     title: 'GARCH Volatility Forecasting App',
     company: 'Personal Project',
