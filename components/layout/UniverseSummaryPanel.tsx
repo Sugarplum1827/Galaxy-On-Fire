@@ -136,3 +136,5 @@ export function UniverseSummaryPanel() {
         </div>
       </motion.div>
     </div>
+  )
+}
