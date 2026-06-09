@@ -11,6 +11,7 @@ const socialIcons: Record<string, React.ElementType> = {
   github: Github,
   linkedin: Linkedin,
   twitter: Twitter,
+  mail: Mail,
   instagram: Instagram,
 }
 
