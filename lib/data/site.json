@@ -36,8 +36,8 @@
     "socialLinks": [
       { "platform": "GitHub",   "url": "https://github.com/Sugarplum1827",                              "icon": "github" },
       { "platform": "LinkedIn", "url": "https://www.linkedin.com/in/jacob-randolf-salayo-216893361/",   "icon": "linkedin" },
-      { "platform": "Kaggle",   "url": "https://www.kaggle.com/randolfsalayo",                          "icon": "kaggle" },
-      { "platform": "Email",    "url": "mailto:jsnovawebstudio@gmail.com",                              "icon": "mail" }
+      { "platform": "Instagram",   "url": "https://www.instagram.com/_randisal?",                          "icon": "kaggle" },
+      { "platform": "Mail",    "url": "mailto:jsnovawebstudio@gmail.com",                              "icon": "mail" }
     ]
   },
   "skills": [
