@@ -119,10 +119,20 @@ export function Navbar() {
                   </Link>
                 )
               })}
-              <button className="w-full flex items-center justify-center gap-2 px-4 py-3 mt-4 text-sm font-medium text-white border border-cosmic-purple/50 rounded-lg hover:bg-cosmic-purple/10 transition-all">
-                <span>Download CV</span>
-                <Download className="w-4 h-4" />
-              </button>
+              const handleDownloadCV = () => { 
+              const link = document.createElement("a");
+              link.href = "/cv.pdf";
+              link.download = "Randolf_CV.pdf";
+              document.body.appendChild(link);
+              link.click();
+              document.body.removeChild(link);
+              };
+             <button
+               onClick={handleDownloadCV}
+               className="w-full flex items-center justify-center gap-2 px-4 py-3 mt-4 text-sm font-medium text-white border border-cosmic-purple/50 rounded-lg hover:bg-cosmic-purple/10 transition-all"
+               <span>Download CV</span>
+              <Download className="w-4 h-4" />
+            </button>
             </div>
           </motion.div>
         )}
