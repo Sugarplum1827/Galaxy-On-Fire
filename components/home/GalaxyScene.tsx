@@ -63,7 +63,7 @@ function SkillOrb({
       transition={{ delay: 0.5 + index * 0.07, type: 'spring', stiffness: 100 }}
       className="absolute"
       style={{
-        left: `calc(50% + ${x - 20}px)`, // move left
+        left: `calc(50% + ${x - 19}px)`, // move left
         top: `calc(50% + ${y - 30}px)`,  // move up
         transform: 'translate(-50%,-50%)'
       }}
