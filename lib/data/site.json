@@ -1,0 +1,62 @@
+{
+  "hero": {
+    "welcomeLabel": "Welcome to my Universe",
+    "lines": [
+      { "text": "I AM", "style": "primary" },
+      { "text": "CREATOR.", "style": "glow-purple" },
+      { "text": "DREAMER.", "style": "glow-purple" },
+      { "text": "CODE. DESIGN.", "style": "muted" },
+      { "text": "DESTROY LIMITS.", "style": "gradient" }
+    ],
+    "subtext": "I build digital experiences that combine creativity, code, and purpose. Let's create something legendary.",
+    "ctaLabel": "Explore My Work",
+    "ctaHref": "/projects"
+  },
+  "creator": {
+    "name": "Jake",
+    "title": "Full Stack & Data Analytics Developer",
+    "level": 95,
+    "location": "Earth",
+    "status": "Building Legends",
+    "missionStatement": "Crafting interactive digital experiences that blend creativity, technology, and purpose to build a better tomorrow.",
+    "currentMission": "Building legendary interfaces and intelligent systems that leave an impact.",
+    "aiAssistantMessage": "Welcome back, creator. The universe is ready for your next command.",
+    "stats": {
+      "skillsMastered": 12,
+      "projectsBuilt": 15,
+      "yearsExperience": 3
+    },
+    "expertise": [
+      { "name": "Frontend Development", "percentage": 95, "color": "#7c3aed" },
+      { "name": "Backend Development", "percentage": 90, "color": "#3b82f6" },
+      { "name": "Data Analytics",       "percentage": 92, "color": "#22d3ee" },
+      { "name": "UI/UX Design",         "percentage": 88, "color": "#ec4899" },
+      { "name": "Problem Solving",      "percentage": 95, "color": "#10b981" }
+    ],
+    "socialLinks": [
+      { "platform": "GitHub",    "url": "https://github.com/jake",          "icon": "github" },
+      { "platform": "LinkedIn",  "url": "https://linkedin.com/in/jake",     "icon": "linkedin" },
+      { "platform": "Twitter",   "url": "https://twitter.com/jake",         "icon": "twitter" },
+      { "platform": "Instagram", "url": "https://instagram.com/jake",       "icon": "instagram" }
+    ]
+  },
+  "skills": [
+    { "id": "react",      "name": "React",       "icon": "react",      "level": 95, "color": "#61dafb", "orbitAngle": -30,  "orbitRadius": 180 },
+    { "id": "python",     "name": "Python",      "icon": "python",     "level": 96, "color": "#3776ab", "orbitAngle": 15,   "orbitRadius": 200 },
+    { "id": "nodejs",     "name": "Node.js",     "icon": "nodejs",     "level": 90, "color": "#339933", "orbitAngle": 45,   "orbitRadius": 220 },
+    { "id": "javascript", "name": "JavaScript",  "icon": "javascript", "level": 90, "color": "#f7df1e", "orbitAngle": -60,  "orbitRadius": 160 },
+    { "id": "typescript", "name": "TypeScript",  "icon": "typescript", "level": 90, "color": "#3178c6", "orbitAngle": 75,   "orbitRadius": 190 },
+    { "id": "sql",        "name": "SQL",         "icon": "sql",        "level": 85, "color": "#00758f", "orbitAngle": 105,  "orbitRadius": 210 },
+    { "id": "html",       "name": "HTML",        "icon": "html",       "level": 95, "color": "#e34f26", "orbitAngle": -90,  "orbitRadius": 170 },
+    { "id": "css",        "name": "CSS",         "icon": "css",        "level": 90, "color": "#264de4", "orbitAngle": 135,  "orbitRadius": 180 },
+    { "id": "firebase",   "name": "Firebase",    "icon": "firebase",   "level": 88, "color": "#ffca28", "orbitAngle": 165,  "orbitRadius": 160 },
+    { "id": "git",        "name": "Git",         "icon": "git",        "level": 88, "color": "#f05032", "orbitAngle": 195,  "orbitRadius": 190 },
+    { "id": "tailwind",   "name": "Tailwind",    "icon": "tailwind",   "level": 90, "color": "#06b6d4", "orbitAngle": -120, "orbitRadius": 200 },
+    { "id": "figma",      "name": "Figma",       "icon": "figma",      "level": 85, "color": "#f24e1e", "orbitAngle": -150, "orbitRadius": 210 }
+  ],
+  "orb": {
+    "clickable": true,
+    "clickLabel": "View Skills →",
+    "clickHref": "/skills"
+  }
+}
