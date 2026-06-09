@@ -2,7 +2,7 @@
   "hero": {
     "welcomeLabel": "Welcome to my Universe",
     "lines": [
-      { "text": "I AM", "style": "primary" },
+      { "text": "I AM THE", "style": "primary" },
       { "text": "ANALYST.", "style": "glow-purple" },
       { "text": "BUILDER.", "style": "glow-purple" },
       { "text": "DATA. CODE.", "style": "muted" },
@@ -14,7 +14,7 @@
   },
   "creator": {
     "name": "Jacob",
-    "title": "Data Science & Full Stack Developer",
+    "title": "Data Scientist & Full Stack Developer",
     "level": 95,
     "location": "Manila, Philippines",
     "status": "Building Legends",
@@ -52,7 +52,7 @@
     { "id": "scikitlearn", "name": "scikit-learn","icon": "scikitlearn", "level": 88, "color": "#f89939", "orbitAngle": 165,  "orbitRadius": 160 },
     { "id": "plotly",      "name": "Plotly",      "icon": "plotly",      "level": 88, "color": "#3f4f75", "orbitAngle": 195,  "orbitRadius": 190 },
     { "id": "git",         "name": "Git",         "icon": "git",         "level": 85, "color": "#f05032", "orbitAngle": -120, "orbitRadius": 200 },
-    { "id": "powerauto",   "name": "Power Automate","icon": "powerauto", "level": 87, "color": "#0078d4", "orbitAngle": -150, "orbitRadius": 210 }
+    { "id": "zapier",   "name": "Zapier","icon": "zapier", "level": 95, "color": "#0078d4", "orbitAngle": -150, "orbitRadius": 210 }
   ],
   "orb": {
     "clickable": true,
