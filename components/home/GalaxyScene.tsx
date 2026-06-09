@@ -426,3 +426,5 @@ function CosmicFigure() {
         ))}
       </div>
     </motion.div>
+  )
+}
