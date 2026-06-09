@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { MapPin, Zap, Github, Linkedin, Twitter, Instagram, ArrowRight } from 'lucide-react'
+import { MapPin, Zap, Mail, Github, Linkedin, Twitter, Instagram, ArrowRight } from 'lucide-react'
 
 import siteData from '@/lib/data/site.json'
 
